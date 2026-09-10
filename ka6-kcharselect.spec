@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.08.0
+%define		kdeappsver	26.08.1
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kcharselect
 Summary:	Kcharselect
 Name:		ka6-%{kaname}
-Version:	26.08.0
+Version:	26.08.1
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	097b422d75589555ffb0aa9e85665581
+# Source0-md5:	df2c1cce9b040950710a2fb940d83c58
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
